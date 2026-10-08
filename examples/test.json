@@ -1,0 +1,386 @@
+[
+  {
+    "episode_id": "episode_000000",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000000.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000000.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000000.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000000.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000000.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000000.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000001",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000001.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000001.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000001.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000001.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000001.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000001.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000002",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000002.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000002.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000002.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000002.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000002.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000002.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000003",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000003.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000003.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000003.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000003.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000003.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000003.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000004",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000004.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000004.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000004.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000004.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000004.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000004.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000005",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000005.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000005.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000005.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000005.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000005.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000005.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000006",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000006.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000006.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000006.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000006.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000006.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000006.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000007",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000007.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000007.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000007.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000007.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000007.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000007.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000008",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000008.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000008.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000008.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000008.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000008.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000008.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000009",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000009.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000009.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000009.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000009.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000009.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000009.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000010",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000010.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000010.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000010.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000010.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000010.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000010.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000011",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000011.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000011.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000011.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000011.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000011.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000011.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000012",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000012.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000012.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000012.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000012.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000012.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000012.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000013",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000013.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000013.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000013.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000013.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000013.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000013.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000014",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000014.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000014.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000014.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000014.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000014.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000014.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000015",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000015.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000015.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000015.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000015.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000015.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000015.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000016",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000016.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000016.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000016.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000016.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000016.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000016.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000017",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000017.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000017.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000017.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000017.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000017.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_ark_lift_and_stack_cups\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000017.mp4"
+    },
+    "task": "Both arms coordinate to lift, move and stack paper cups."
+  },
+  {
+    "episode_id": "episode_000000",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000000.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000000.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000000.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000000.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000000.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000000.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000001",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000001.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000001.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000001.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000001.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000001.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000001.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000002",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000002.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000002.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000002.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000002.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000002.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000002.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000003",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000003.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000003.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000003.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000003.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000003.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000003.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000004",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000004.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000004.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000004.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000004.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000004.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000004.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000005",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000005.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000005.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000005.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000005.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000005.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000005.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000006",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000006.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000006.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000006.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000006.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000006.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000006.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000007",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000007.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000007.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000007.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000007.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000007.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000007.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000008",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000008.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000008.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000008.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000008.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000008.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000008.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000009",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000009.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000009.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000009.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000009.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000009.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000009.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000010",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000010.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000010.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000010.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000010.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000010.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000010.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000011",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000011.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000011.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000011.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000011.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000011.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000011.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000012",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000012.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000012.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000012.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000012.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000012.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000012.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  },
+  {
+    "episode_id": "episode_000013",
+    "video_path": {
+      "camera_front": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_front\\episode_000013.mp4",
+      "camera_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_left\\episode_000013.mp4",
+      "camera_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_right\\episode_000013.mp4",
+      "camera_top": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_top\\episode_000013.mp4",
+      "camera_wrist_left": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_left\\episode_000013.mp4",
+      "camera_wrist_right": "C:\\Users\\34927\\Desktop\\robot_mind2\\camera_extrinsics_intrinsics\\franka\\robogene_twoArm_franka_arrange_tabletop_drink_display\\videos\\chunk-000\\observation.rgb_images.camera_wrist_right\\episode_000013.mp4"
+    },
+    "task": "Both arms coordinate to arrange drink items on a tabletop display."
+  }
+]

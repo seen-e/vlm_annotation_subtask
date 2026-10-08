@@ -1,0 +1,305 @@
+# Lightweight configurable VLM experiment pipeline.
+# 轻量级多阶段 VLM 实验框架配置。
+#
+# 设计原则：
+# 1. workflow 控制 stage 执行顺序。
+# 2. stages.<stage_name> 控制单个 stage 的 prompt、视频处理参数和生成参数。
+# 3. prompt 中可以直接用占位符引用上游输出：
+#      {{ ctx.stages.scene.output }}
+#      {{ ctx.stages.scene.output.executors }}
+#      {{ ctx.stages.analysis.output.action_sequence.0.action }}
+# 4. prompt 中也可以引用 prompts/prompts_3_stages/*.py 中的公共片段：
+#      {{ prompt.common.JSON_ONLY_RULE }}
+#      {{ prompt.common.ACTION_VOCABULARY }}
+# 5. 新增 stage 时，通常只需要：
+#      a) 新增 prompts/prompts_3_stages/<stage_name>.py
+#      b) 在 stages 下新增同名配置
+#      c) 在 workflow 中插入该 stage 名称
+
+# workflow: stage 执行顺序。
+# 可填写内容：stage 名称列表，每个名称必须存在于下面的 stages 字段。
+# 示例：
+#   workflow:
+#     - scene
+#     - object_state
+#     - analysis
+#     - refinement
+workflow:
+  - scene
+  - analysis
+  - refinement
+
+# robot_type: 机器人提示词开关。
+# 可选值对应 prompts/robot_type.py 中 ROBOT_TYPE_PROMPTS 的 key：
+#   single_arm / bimanual / mobile_manipulator
+robot_type: bimanual
+
+# 对完整 episode 以 15 秒窗口递归运行 scene -> analysis -> refinement。
+# 每轮从两条时间线最后一个 action 的较早起点回退；两臂分别从各自起点重新标注。
+segment_loop:
+  enabled: true
+  # true: 所有片段预测并拼接完成后生成 merged_timeline。
+  # false: 只输出 arm_1/arm_2 完整时间线，不执行双臂边界并集。
+  merge_after_episode: true
+  window_duration_sec: 15.0
+  result_stage: refinement
+  executors:
+    - arm_1
+    - arm_2
+  max_retries_per_segment: 2
+  max_segments: 1000
+  frame_cache:
+    enabled: true
+    jpeg_quality: 95
+    cleanup_on_complete: true
+  postprocessor:
+    policy: bimanual_last_action_start
+    start_time_field: start_time
+    end_time_field: end_time
+    min_advance_sec: 0.25
+    fallback_overlap_sec: 2.0
+    require_sampled_timestamps: true
+    timestamp_tolerance_sec: 0.011
+
+# model: 默认模型调用参数。
+
+# model: 默认模型调用参数。
+# stage 中可以通过 generation 字段覆盖 max_tokens、temperature、top_p、top_k、max_retries 等参数。
+model:
+  # base_url: OpenAI-compatible API 地址。
+  # 本地 vLLM 示例：http://127.0.0.1:8002/v1
+  base_url: "http://127.0.0.1:8002/v1"
+
+  # api_key: API key。
+  # 本地 vLLM 通常可以使用 "EMPTY"。
+  api_key: "EMPTY"
+
+  # model: 模型名称，需要与 /v1/models 返回的 id 一致。
+  # 例如："Qwen3-VL-8B-Instruct"、"Qwen3-VL-30B-A3B-Instruct-FP8"。
+  model: "Qwen3.5-397B-A17B-FP8"
+  #"Qwen3.5-27B"
+  #"Qwen3.5-122B-A10B"
+  #"Qwen3.5-397B-A17B-FP8"
+
+  # timeout: 单次模型请求的客户端超时时间，单位为秒。
+  timeout: 1200
+
+  # max_tokens: 默认最大输出 token 数。
+  # 如果 stage 输出较长，可在对应 stage.generation 中覆盖。
+  max_tokens: 4096
+
+  # temperature: 采样温度。
+  # 标注任务建议 0.0，保证输出稳定。
+  temperature: 0.0
+
+  # top_p: nucleus sampling 参数；如果不需要可设为 null 或删除。
+  top_p: 0.95
+
+  # top_k: 部分 OpenAI-compatible 服务支持的额外采样参数。
+  # 0 表示不显式传入 top_k；大于 0 时会通过 extra_body 传给服务端。
+  top_k: 0
+
+  # extra_body: 透传给 OpenAI-compatible 服务端的额外请求体。
+  # Qwen thinking 模型如需避免长时间只生成 reasoning，可在 vLLM 支持时关闭 thinking。
+  extra_body:
+    chat_template_kwargs:
+      enable_thinking: false
+
+  # max_retries: 模型请求失败时的最大重试次数。
+  max_retries: 3
+
+
+# stages: 每个 stage 的配置。
+# 每个 stage 的基本结构：
+#   <stage_name>:
+#     prompt:        从 prompts/prompts_3_stages/*.py 加载 system/user prompt 模板
+#     output_key:    语义标识，当前主要用于记录；context 中仍按 stage_name 存储
+#     video:         当前 stage 的视频抽帧、拼接和编码参数
+#     generation:    可选，覆盖 model 中的生成参数
+#
+# 运行后结果存储位置：
+#   context["stages"][stage_name]["output"]
+# 下游 prompt 引用方式：
+#   {{ ctx.stages.<stage_name>.output }}
+#   {{ ctx.stages.<stage_name>.output.<field> }}
+stages:
+
+
+  scene:
+    # prompt.module: Python prompt 模块路径。
+    # 三阶段提示词使用 prompts.prompts_3_stages.<stage_name> 路径。
+    prompt:
+      module: "prompts.prompts_3_stages.scene"
+      # system: 模块中的 system prompt 变量名，必须是字符串。
+      system: "SCENE_SYSTEM_PROMPT"
+      # user: 模块中的 user prompt 模板变量名，必须是字符串。
+      user: "SCENE_USER_PROMPT"
+
+    # output_key: 当前 stage 输出的语义名称。
+    # 注意：context 中实际仍以 stage 名称 scene 存储，即 ctx.stages.scene.output。
+    output_key: "scene"
+
+    generation:
+       max_tokens: 16384
+
+    video:
+      # input_mode: 传给 VLM 的视觉输入形式。
+      # 可填写："image_sequence" 或 "video"。
+      # image_sequence: 将处理后帧编码为 JPEG image_url parts。
+      # video: 将处理后帧编码为 MP4 video_url part；需要模型服务支持 video_url。
+      input_mode: "image_sequence"
+
+      # add_frame_tags: 仅对 input_mode=image_sequence 生效。
+      # true 时，在 message 的每个 image_url 前插入 text part：
+      #   <t=1.25s> <frame_index=30> <camera_front>
+      # 时间戳和视角名称也会绘制在图像上；frame_index 仅存在于文字标签中。
+      # timeline montage 会列出其中全部时间戳和帧号，多视角拼图会列出全部视角。
+      # false 时不增加逐帧文字标签。
+      add_frame_tags: true
+
+      # max_time: 当前 stage 参与后续视频处理的最大原始视频时长，单位秒。
+      # -1 表示不限制，使用完整原始视频。
+      # 大于 0 表示只处理原始视频时间轴上的 [0, max_time) 区间；
+      # 如果原始视频更短，则处理完整视频。
+      # 该限制发生在抽帧、缩放、多视角合并和图像序列生成之前；
+      # 不会修改视频播放速度、帧率或时间戳。
+      max_time: -1
+
+      # save_processed: 是否保存当前 stage 最终送入模型的处理后媒体。
+      # merge_views=false 且有多个视角时，会在 processed_frames/<view_name>/ 下分别保存。
+      save_processed: false
+
+      # fps: 按原始视频时间轴抽帧的目标帧率。
+      # scene 阶段主要提取稳定上下文，可以较低，例如 0.5 或 1.0。
+      fps: 1.0
+
+      # max_frames: 当前 stage 最多采样多少帧。
+      # 多视角 merge_views=True 时，通常表示时间点数量，而不是视角子图数量。
+      # merge_views=False 且 view_names 有多个视角时，对每个视角分别应用此上限。
+      max_frames: 64
+
+      # resize_width: 每个视角图像在拼接/编码前的目标宽度，保持宽高比。
+      resize_width: 672
+
+      # jpeg_quality: JPEG 编码质量，范围 1-100。
+      # 数值越低，base64 更短、token/传输开销更小，但细节损失更大。
+      jpeg_quality: 95
+
+      # draw_timestamps: 是否在图像上绘制时间戳，例如 t=1.25s。
+      # refinement 阶段通常应该开启；scene 阶段也可以开启用于调试。
+      draw_timestamps: true
+
+      # draw_view_names: 是否在图像上绘制视角名称。
+      # 对多视角输入建议开启，便于模型理解不同画面来源。
+      # 对应旧代码中的 draw_viewposition。
+      draw_view_names: true
+
+      # draw_montage_axes: 是否在多视角 timeline montage 外侧绘制坐标轴标签。
+      # 仅当 merge_views=true 且 timeline_grid 实际合并超过 1 个时间点时生效。
+      # 顶部按列标注时间戳，行首标注视角名称。
+      draw_montage_axes: true
+
+      # min_api_frames: 尽量保证送入模型的最少帧数。
+      # 当视频足够长时会尽量满足；视频过短时不会越界强行补帧。
+      min_api_frames: 2
+
+      # merge_views: 是否启用多视角输入。
+      # true: 同一时间点的不同视角按 view_names 顺序逐行纵向拼接。
+      # false + 单视角: 保持原行为，只输出该视角。
+      # false + 多视角: 每个视角独立执行时间限制、抽帧、缩放和 input_mode 编码；
+      #                    message 中会在每组媒体前插入文字，明确标识所属视角。
+      merge_views: false
+
+      # merge_mode: 时间维度输出模式。
+      # 可填写："per_frame" 或 "timeline_grid"。
+      # per_frame: 每个采样时间点单独输出给模型。
+      # timeline_grid: 按时间从左到右合并多个采样时间点后输出给模型。
+      # merge_views=false 且有多个视角时，时间维度处理在每个视角内部独立执行。
+      merge_mode: "per_frame"
+
+      # merge_length: timeline_grid 模式下每张 montage 合并的连续时间点数量。
+      # 小于 1 表示把当前 stage 采样到的全部时间点合成一整张图。
+      # 等于 1 表示每张 montage 只包含一个时间点；大于 1 表示按该长度分组。
+      merge_length: -1
+
+      # view_names: 需要使用/合并的视角名称及顺序。
+      # 对 dict 多视角输入，应与 video_path 的 key 对应。
+      # 第一个视角一般作为 primary view，用于相对空间描述基准。
+      # 如果输入是 list，多数情况下会按该列表给视角命名。
+      view_names:
+        - observation.images.image_0
+
+  analysis:
+    prompt:
+      module: "prompts.prompts_3_stages.analysis"
+      system: "ANALYSIS_SYSTEM_PROMPT"
+      user: "ANALYSIS_USER_PROMPT"
+    output_key: "analysis"
+
+    # generation: 可选字段，用于覆盖顶层 model 参数。
+    # 示例：
+    generation:
+      max_tokens: 32768
+      extra_body:
+        chat_template_kwargs:
+          enable_thinking: true
+    #   temperature: 0.0
+    video:
+      input_mode: "image_sequence"
+      # 是否在每个 image_url 前加入 <t=...s> <frame_index=...> <view_name> 文字标签。
+      add_frame_tags: true
+      # max_time: 当前 stage 的最大原始视频处理时长，单位秒。
+      # -1 表示不限制；大于 0 表示只处理 [0, max_time)。
+      # 多视角输入时，所有视角使用相同时间上限，较短视角不会补帧。
+      max_time: -1
+      save_processed: false
+      # analysis 需要观察动作顺序，通常比 scene 使用更高 fps 或更多帧。
+      fps: 4.0
+      max_frames: 512
+      resize_width: 448
+      jpeg_quality: 95
+      draw_timestamps: true
+      draw_view_names: true
+      draw_montage_axes: true
+      min_api_frames: 2
+      merge_views: false
+      merge_mode: "per_frame"
+      merge_length: -1
+      view_names:
+        - observation.images.image_0
+
+
+  refinement:
+    prompt:
+      module: "prompts.prompts_3_stages.refinement"
+      system: "REFINEMENT_SYSTEM_PROMPT"
+      user: "REFINEMENT_USER_PROMPT"
+    output_key: "refinement"
+
+    generation:
+       max_tokens: 32768
+
+    video:
+      input_mode: "image_sequence"
+      # 是否在每个 image_url 前加入 <t=...s> <frame_index=...> <view_name> 文字标签。
+      add_frame_tags: true
+      # max_time: 当前 stage 的最大原始视频处理时长，单位秒。
+      # -1 表示不限制；大于 0 表示只处理 [0, max_time)。
+      # 该参数与 fps、max_frames、frame_start/frame_end 取交集后再抽帧。
+      max_time: -1
+      save_processed: false
+      # refinement 需要更精细的边界定位，通常使用更高 fps。
+      fps: 4.0
+      max_frames: 512
+      resize_width: 448
+      # refinement 看边界和接触事件，建议保留较高 JPEG 质量。
+      jpeg_quality: 95
+      draw_timestamps: true
+      draw_view_names: true
+      draw_montage_axes: true
+      min_api_frames: 2
+      merge_views: false
+      merge_mode: "per_frame"
+      merge_length: -1
+      view_names:
+        - observation.images.image_0
