@@ -1,0 +1,2 @@
+# vlm_annotation_subtask
+用于长视频的相位切分标注方案
